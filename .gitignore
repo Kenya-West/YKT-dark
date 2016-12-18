@@ -2,8 +2,10 @@
 ## This repo only
 #################
 
-*.css
+ykt-dark.css
 .vscode/
+node_modules/
+
 
 #################
 ## Eclipse
