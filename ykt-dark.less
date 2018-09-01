@@ -2,7 +2,7 @@
 @bg-color: #000;
 @font-color: #FFF;
 @font-color--reverse: #000;
-@accent-color: #0078D7;
+@accent-color: rgb(95, 183, 255);
 @accent-color--light: #AAA;
 @accent-color--dark: #222;
 @border: none;
@@ -11,8 +11,7 @@
 If you want to improve, contribute and change somethin' in there, please
 check this repo: https://github.com/Kenya-West/YKT-dark/ */
 body {
-    background: @bg-color !important;
-    border: @border !important;
+    background: @bg-color;
 }
 
 .f-view_phone-validation-form .footer {
@@ -91,7 +90,10 @@ body {
     color: @font-color;
 }
 a {
-    color: #0078D7;
+    color: @accent-color;
+}
+a:hover {
+    color: (@accent-color + #333);
 }
 
 .f-topics_item--even .f-topic_author:after, .f-topics_item--even .f-topic_title:after {
@@ -120,6 +122,9 @@ color: @font-color !important
 .f-topic_author_name--verified, .f-topic_author_name--veter {
     color: inherit;
 }
+.f-topic_author_name--moder, .f-topic_author_name--admin {
+    color: @accent-color;
+}
 
 /*OTHER ELEMENTS*/
 .yui-btn--hollow-green {
@@ -129,16 +134,21 @@ color: @font-color !important
     background: inherit !important;
     border: @border !important;
 }
-.f-header, .yui-nav_item, .yui-nav_item * {
-background-color: @bg-color !important;
+.f-header, .yui-nav_item, .yui-nav_item > a {
+    background-color: @bg-color !important;
 }
+ .yui-nav_item > a:hover {
+     color: @font-color;
+ }
 .f-widget_user_rate {
     color: @accent-color--light
 }
 .yui-btn {
     background: @accent-color--dark !important;
-    border: inherit !important;
-    
+    border: inherit;
+}
+.yui-btn:hover {
+    background: (@accent-color--dark + #222) !important;
 }
 .yui-input-control {
 	background-color: @accent-color--dark;
