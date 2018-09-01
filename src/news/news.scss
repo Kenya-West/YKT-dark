@@ -11,6 +11,19 @@ body.desktop.ygm-showmenu {
     .n-logo {
         display: none;
     }
+    a {
+        color: $accent-color;
+    }
+    a:hover {
+        color: lighten($accent-color, 15%);
+    }
+    .yui-btn {
+        background: $accent-color--dark !important;
+        border: inherit;
+    }
+    .yui-btn:hover {
+        background: lighten($accent-color--dark, 15%) !important;
+    }
 }
 
 .n-container {
@@ -67,6 +80,9 @@ body.desktop.ygm-showmenu {
         .n-interesting_item {
             border: $border;
         }
+        .popular-things-portlet .yui-block_header {
+            color: $font-color;
+        }
     }
     .n-main {
         .yui-block_header {
@@ -93,6 +109,33 @@ body.desktop.ygm-showmenu {
         }
         .yui-nav_item--active .yui-nav_item_link {
             color: $font-color;
+            border: $border;
+            background: $accent-color--dark;
         }
+        .yui-nav_item .yui-nav_item_link {
+            &:hover {
+                border: $border;
+                background: $accent-color--dark;
+            }
+        }
+        .yui-nav--tab .yui-nav_item {
+            background: $bg-color;
+            border: $border;
+        }
+    }
+    a {
+        color: $accent-color;
+    }
+    a:hover {
+        color: lighten($accent-color, 15%);
+    }
+    .yui-btn,
+    .yui-input-control {
+        background: $accent-color--dark !important;
+        border: $border;
+    }
+    .yui-btn:hover,
+    .yui-input-control:hover {
+        background: lighten($accent-color--dark, 15%) !important;
     }
 }
