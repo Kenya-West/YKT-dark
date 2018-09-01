@@ -1,0 +1,36 @@
+/* .f-content */
+
+.f-content {
+    .f-topics_header {
+        background: inherit
+    }
+    .f-topics .f-topics_item--even {
+        background-color: $bg-color
+    }
+    .f-topics .f-topics_item--odd {
+        background-color: lighten($color: $bg-color, $amount: 5)
+    }
+}
+
+/* .f-sidebar */
+
+.f-sidebar {
+    .f-userpanel_achievements_item,
+    .f-userpanel_achievements_more {
+        border: $border;
+    }
+    .yui-block * {
+        background: inherit;
+        border: $border;
+    }
+    .yui-block_header a,
+    .yui-block_header a:hover {
+        color: $font-color;
+    }
+    .f-widget--users .f-widget_user.active {
+        background: $accent-color--dark;
+    }
+    .achievements-info>* {
+        color: $font-color--reverse;
+    }
+}
