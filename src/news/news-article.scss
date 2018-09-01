@@ -1,0 +1,28 @@
+.n-header {}
+
+.n-container {
+    .n-sidebar--left {
+        .n-interesting_item {
+            border: $border;
+        }
+    }
+    .n-sidebar--right {
+        .yui-panel {
+            background: $bg-color;
+            border: $border;
+        }
+        .n-popular-things_title_link {
+            color: inherit;
+        }
+    }
+    .n-main {
+        .n-comment,
+        .n-comments_list {
+            background: none;
+            border: $border;
+        }
+        .n-comment--best {
+            background-color: $accent-color--dark;
+        }
+    }
+}
