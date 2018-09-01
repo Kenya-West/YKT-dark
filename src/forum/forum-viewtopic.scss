@@ -1,0 +1,38 @@
+.topic {
+    color: $font-color;
+    * {
+        border: $border;
+    }
+    #f-view-admin-actions a {
+        color: $font-color;
+    }
+    .f-redactor_header {
+        background-color: #BBB;
+    }
+    .f-view,
+    .f-comments,
+    .f-comments_header {
+        background: inherit;
+    }
+    .f-redactor>textarea {
+        background: $accent-color--dark !important;
+    }
+    label[for="sakha-caps"] {
+        color: #000;
+    }
+    .f-view_like_dislike,
+    .f-view_like_like {
+        background: $accent-color--dark !important;
+    }
+    blockquote[style] {
+        background-color: $accent-color--dark !important;
+        color: white !important;
+        border-color: #333 !important;
+    }
+    .f-comment.last {
+        background-color: $accent-color--dark;
+    }
+    .f-comment_content .f-comment_text {
+        color: $font-color;
+    }
+}
