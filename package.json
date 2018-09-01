@@ -19,6 +19,6 @@
   "author": "Kenya-West",
   "license": "ISC",
   "devDependencies": {
-    "less": "^2.7.1"
+    "node-sass": "^4.9.3"
   }
 }
