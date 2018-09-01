@@ -1,0 +1,98 @@
+body.desktop.ygm-showmenu {
+    color: $font-color;
+}
+
+.n-header {
+    background: $bg-color;
+    border: $border;
+    .n-menu_item_link {
+        border: $border;
+    }
+    .n-logo {
+        display: none;
+    }
+}
+
+.n-container {
+    background: $bg-color;
+    border: $border;
+    .n-sidebar--left {
+        .yui-block_header {
+            background: $bg-color;
+            border: $border;
+            a,
+            a:hover {
+                color: $font-color;
+            }
+        }
+        .yui-block_body {
+            background: $bg-color;
+            border: $border;
+        }
+        .n-latest-news_item {
+            border: $border;
+        }
+        .n-latest-news_show-all {
+            background: inherit;
+        }
+        .yui-panel {
+            background: $bg-color;
+            border: $border;
+        }
+        .n-nvk {
+            .n-nvk_header_link {
+                color: $font-color;
+            }
+        }
+    }
+    .n-sidebar--right {
+        .yui-block_header {
+            background: $bg-color;
+            border: $border;
+        }
+        .yui-block_body {
+            background: $bg-color;
+            border: $border;
+        }
+        .n-news-plus_title:after {
+            background: none;
+        }
+        .yui-panel {
+            border: $border;
+        }
+        .yui-block_header a,
+        .yui-block_header a:hover {
+            color: $font-color;
+        }
+        .n-interesting_item {
+            border: $border;
+        }
+    }
+    .n-main {
+        .yui-block_header {
+            background: $bg-color;
+            border: $border;
+        }
+        .yui-block_body {
+            background: $bg-color;
+            border: $border;
+        }
+        .yui-panel {
+            border: $border;
+            background: $bg-color;
+        }
+        .n-dnevniki_post {
+            border: $border;
+            .n-dnevniki_post_title:after,
+            .n-dnevniki_post_author:after {
+                background: none;
+            }
+        }
+        .n-popular_post {
+            border: $border;
+        }
+        .yui-nav_item--active .yui-nav_item_link {
+            color: $font-color;
+        }
+    }
+}
