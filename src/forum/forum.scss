@@ -1,11 +1,11 @@
 /*YKT FORUMS ROOT PAGE*/
-
 .f-header {
     background: none;
 }
 
 .f-container {
     .f-content {
+
         /*Clear background and borders*/
         .f-forums_list,
         .f-interesting_forum,
@@ -14,83 +14,105 @@
             background: none;
             border: $border;
         }
+
         .f-forums_list_item_title:after {
             display: none;
         }
+
         .f-forums_nav .yui-nav_item {
             border: $border !important;
         }
+
         .f-forums_nav .yui-nav_item-toggle {
             background: inherit;
             color: $font-color;
             border: $border;
         }
+
         .f-forums_nav .yui-nav_item--active>span {
             color: $font-color;
         }
+
         .yui-nav--tab .yui-nav_item_inner {
             border: $border;
             color: $accent-color--light;
+
+            &:hover {
+                background: $accent-color--dark;
+            }
         }
-        .yui-nav--tab .yui-nav_item_inner:hover {
-            background: $accent-color--dark;
-        }
+
         .yui-nav_item--active .yui-nav_item_inner {
             background: $accent-color--dark;
         }
+
         .f-main-topic_thumb {
             background-color: $bg-color
         }
+
         /*Make text in readable color*/
         .f-main-topics_title,
         .f-forums_title,
         .f-main-top_column {
             color: $font-color;
         }
+
         .yui-nav--tab .yui-nav_item {
             background: $bg-color;
         }
     }
+
     .f-sidebar {
         .f-widget_history_clear {
             color: $font-color;
             background: inherit;
+
+            &:hover {
+                background: $accent-color--dark;
+            }
         }
-        .f-widget_history_clear:hover {
-            background: $accent-color--dark;
-        }
+
         .f-widget_users_more {
             background-color: $bg-color;
         }
     }
+
     .yui-btn--hollow-green {
         border: $border;
     }
+
     .yui-nav_item>a:hover {
         color: $font-color;
     }
+
     .yui-input-control {
         background-color: $accent-color--dark;
         color: $accent-color--light;
         border: $border !important;
     }
+
     a {
         color: $accent-color;
+
+        &:hover {
+            color: lighten($accent-color, 15%);
+        }
     }
-    a:hover {
-        color: lighten($accent-color, 15%);
-    }
+
     .yui-btn {
         background: $accent-color--dark !important;
         border: inherit;
+
+        &:hover {
+            background: lighten($accent-color--dark, 15%) !important;
+        }
     }
-    .yui-btn:hover {
-        background: lighten($accent-color--dark, 15%) !important;
-    }
+
     .f-logo--main,
     .f-logo>a>img {
         display: none;
     }
+
     /*STOLEN FROM ui.min.css*/
     .yui-block--modern .yui-block_header,
     .yui-block--modern-afisha .yui-block_header,
@@ -116,7 +138,6 @@
 }
 
 /*TEMPORARY workaround for banners 14.12.16*/
-
 body>div[style] {
     background-color: $accent-color--dark !important;
 }
