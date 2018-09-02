@@ -1,0 +1,191 @@
+#site-wrapper {
+    >#content-wrapper {
+        a {
+            color: $accent-color;
+
+            &:hover {
+                color: lighten($accent-color, 15%);
+            }
+        }
+
+        >#frontpage-top-main-block {
+            background: $bg-color;
+
+            #dnevniki-logo {
+                display: none;
+            }
+
+            #sections a.active {
+                color: $font-color;
+            }
+
+            .yui-dropdown {
+                background: $accent-color--dark;
+                border: $border;
+                color: $accent-color--light;
+            }
+
+            .yui-dropdown_items {
+                background: $accent-color--dark;
+                color: $font-color;
+                border: $border;
+            }
+
+            #search-block #search-input-wrapper input {
+                background: $accent-color--dark;
+                border: $border;
+            }
+
+            #search-calendar-month>a {
+                color: $font-color;
+            }
+
+            #search-calendar-body {
+                background: $accent-color--dark;
+                color: $accent-color--light;
+            }
+
+            #search-block .yui-btn {
+                background: $accent-color--dark;
+            }
+        }
+
+        >#body-wrapper {
+            #main-col-inner {
+                .yui-block_body {
+                    background: $bg-color;
+                }
+
+                .yui-block.alone .yui-block_body {
+                    border: $border;
+                }
+
+                .promo-inFrontPage-title {
+                    color: $font-color;
+                }
+
+                .promo-inFrontPage {
+                    .user-nick-fade {
+                        display: none;
+                    }
+
+                    .user-item .user-about div.user-about-shadow,
+                    .community-item .community-description .community-description-shadow {
+                        background-color: $accent-color--dark;
+                    }
+
+                    .user-item .user-about,
+                    .community-item .community-description {
+                        color: $font-color;
+                    }
+
+                    .community-item-read-btn {
+                        background-color: $bg-color;
+                    }
+                }
+            }
+
+            #right-col {
+                .yui-block_body {
+                    background: $bg-color;
+                    border: $border;
+                }
+
+                .yui-btn.green {
+                    background: $accent-color--dark;
+                }
+
+                .yui-nav {
+                    background: $bg-color;
+                }
+
+                .yui-nav_item>a {
+                    border: $border;
+
+                    &:hover {
+                        background: $accent-color--dark;
+                        color: $accent-color--light;
+                    }
+                }
+
+                .yui-block.modern .yui-block_header {
+                    background: $bg-color;
+                    border: $border;
+                    color: $font-color;
+                }
+
+                .top-post-footer-row {
+                    background: $bg-color;
+                    color: $accent-color--light;
+                    border: $border;
+                }
+
+                .top-post-row:hover {
+                    background: $accent-color--dark;
+                }
+
+                #popular-users-block li:hover,
+                #popular-tags-block li:hover,
+                #comments-latest-block li:hover {
+                    background-color: $accent-color--dark;
+                    color: $accent-color--light;
+                }
+
+                #comments-latest-block ul li .text .c-fade {
+                    background: none;
+                }
+
+                #popular-users-block .yui-block_footer,
+                #fpo-posts .yui-block_footer {
+                    background: $bg-color;
+                    color: $accent-color--light;
+                    border: $border;
+                }
+
+                .top-communities-row {
+                    >.top-communities-read-block {
+                        >.top-communities-item-read {
+                            background-color: transparent !important;
+                            color: $accent-color--light;
+                        }
+
+                        >span {
+                            display: none
+                        }
+                    }
+
+                    >span {
+                        display: none
+                    }
+
+                    &:hover {
+                        background: $accent-color--dark;
+                        color: $accent-color--light;
+                        border: $border;
+                    }
+
+                    &.top-communities-row-bottom {
+                        background: $bg-color;
+                        color: $accent-color--light;
+                        border: $border;
+                    }
+                }
+
+                .interesting-block,
+                .interesting-block_background,
+                .interesting-block--vertical {
+                    >.interesting-items {
+                        >.interesting-item {
+                            background: $accent-color--dark;
+                            border: $border;
+
+                            .interesting-item_nick {
+                                color: $font-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
