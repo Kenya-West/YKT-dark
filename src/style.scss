@@ -4,8 +4,9 @@
 @import "forum/forum-viewtopic";
 @import "news/news";
 @import "news/news-article";
-/* general */
+@import "dnevniki/dnevniki";
 
+/* general */
 body {
     background: $bg-color;
 }
