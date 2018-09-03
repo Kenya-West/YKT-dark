@@ -30,6 +30,12 @@ body.cke_editable.cke_editable_themed.cke_contents_ltr {
             }
 
             #post-view-comment-block {
+                .d-comment_wrapper {
+                    background: $bg-color;
+                    color: $font-color;
+                    border: $border;
+                }
+
                 .comment-form {}
 
                 #cke_textarea-comment-add,
