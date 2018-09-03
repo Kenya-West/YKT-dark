@@ -1,0 +1,53 @@
+body.cke_editable.cke_editable_themed.cke_contents_ltr {
+    color: $font-color;
+}
+
+#site-wrapper {
+    #dnevniki-header {}
+
+    #content-wrapper {
+        #body-wrapper {
+            .yui-block_body {
+                border: $border;
+                background: $bg-color;
+            }
+
+            .post-view__footer {
+                .ykt-like-btn {
+                    background-color: $bg-color;
+                    color: $font-color;
+                }
+
+                a {
+                    border: $border;
+                    color: $accent-color--light;
+                }
+
+                .d-topic_share_btn {
+                    border: $border;
+                    background: $accent-color--dark;
+                }
+            }
+
+            #post-view-comment-block {
+                .comment-form {}
+
+                #cke_textarea-comment-add,
+                #cke_textarea-comment-reply {
+                    border: $border;
+                }
+
+                .cke_inner,
+                .cke_wysiwyg_frame,
+                .cke_wysiwyg_div {
+                    background: $accent-color--dark;
+                }
+
+                .cke_reset_all,
+                .cke_reset_all * {
+                    color: $font-color;
+                }
+            }
+        }
+    }
+}
