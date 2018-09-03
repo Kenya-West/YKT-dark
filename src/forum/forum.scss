@@ -102,6 +102,7 @@
     .yui-btn {
         background: $accent-color--dark !important;
         border: inherit;
+        color: $accent-color--light;
 
         &:hover {
             background: lighten($accent-color--dark, 15%) !important;
