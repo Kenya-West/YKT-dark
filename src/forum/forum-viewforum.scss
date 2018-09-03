@@ -8,6 +8,15 @@
         color: $font-color;
     }
 
+    /* Style for rating page */
+    .f-rating .f-topics_item {
+        background-color: $bg-color;
+    }
+
+    .f-rating .f-topics_item.f-topics_item--even {
+        background-color: $accent-color--dark;
+    }
+
     .f-topics_header {
         background: inherit
     }
@@ -90,6 +99,21 @@
         border: $border;
     }
 
+    .f-userpanel_user-info,
+    .f-userpanel_rating {
+        border: $border;
+    }
+
+    .f-userpanel_info {
+        background: $accent-color--dark;
+        color: $font-color;
+        border: $border;
+
+        .f-userpanel_info_title {
+            color: $font-color;
+        }
+    }
+
     .f-widget_user_rate {
         color: $accent-color--light
     }
@@ -113,5 +137,13 @@
 
     .achievements-info>* {
         color: $font-color--reverse;
+    }
+
+    .f-achievements {
+        background-color: $accent-color--dark;
+    }
+
+    .f-userpanel_achievements_more {
+        color: $font-color;
     }
 }
