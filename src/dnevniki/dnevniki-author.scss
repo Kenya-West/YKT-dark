@@ -1,0 +1,43 @@
+#site-wrapper {
+    #dnevniki-header {
+        .yui-dropdown {
+            background: $accent-color--dark;
+            border: $border;
+            color: $accent-color--light;
+        }
+
+        .yui-dropdown_items {
+            background: $accent-color--dark;
+            color: $font-color;
+            border: $border;
+        }
+
+        #search-block #search-input-wrapper input {
+            background: $accent-color--dark;
+            border: $border;
+        }
+
+        #search-calendar-month>a {
+            color: $font-color;
+        }
+
+        #search-calendar-body {
+            background: $accent-color--dark;
+            color: $accent-color--light;
+        }
+
+        #search-block .yui-btn {
+            background: $accent-color--dark;
+        }
+    }
+
+    #content-wrapper {
+        .hr-line {
+            border: $border;
+        }
+
+        .yui-pagination ul li a {
+            background-color: transparent;
+        }
+    }
+}
