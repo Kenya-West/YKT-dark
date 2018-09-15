@@ -3,9 +3,27 @@ body.cke_editable.cke_editable_themed.cke_contents_ltr {
 }
 
 #site-wrapper {
-    #dnevniki-header {}
+    #dnevniki-header {
+
+        img[alt="user-header"],
+        #appearance-img {
+            -webkit-filter: blur(10px) grayscale(1) brightness(0.5);
+            -moz-filter: blur(10px) grayscale(1) brightness(0.5);
+            -o-filter: blur(10px) grayscale(1) brightness(0.5);
+            -ms-filter: blur(10px) grayscale(1) brightness(0.5);
+            filter: blur(10px) grayscale(1) brightness(0.5);
+        }
+    }
 
     #content-wrapper {
+        #body-background {
+            -webkit-filter: blur(10px) grayscale(1) brightness(0.5);
+            -moz-filter: blur(10px) grayscale(1) brightness(0.5);
+            -o-filter: blur(10px) grayscale(1) brightness(0.5);
+            -ms-filter: blur(10px) grayscale(1) brightness(0.5);
+            filter: blur(10px) grayscale(1) brightness(0.5);
+        }
+
         #body-wrapper {
             .yui-block_body {
                 border: $border;
@@ -52,6 +70,17 @@ body.cke_editable.cke_editable_themed.cke_contents_ltr {
                 .cke_reset_all,
                 .cke_reset_all * {
                     color: $font-color;
+                }
+            }
+
+            .interesting-block,
+            .interesting-block_background {
+                border: $border;
+                background: $bg-color;
+
+                .interesting-items>.interesting-item {
+                    border: $border;
+                    background: $accent-color--dark;
                 }
             }
         }
