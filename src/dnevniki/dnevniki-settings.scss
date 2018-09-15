@@ -1,0 +1,34 @@
+#site-wrapper {
+    #dnevniki-header {}
+
+    #content-wrapper {
+        #body-wrapper-settings {
+            .yui-block.alone .yui-block_body {
+                border: $border;
+                background: $accent-color--dark;
+            }
+
+            #user-settings-menu li.subheader {
+                border: $border;
+                background: $accent-color--dark;
+            }
+
+            .yui-dropdown {
+                background: $accent-color--dark;
+                border: $border;
+                color: $accent-color--light;
+            }
+
+            .yui-dropdown_items {
+                background: $accent-color--dark;
+                color: $font-color;
+                border: $border;
+            }
+
+            div.invites-list-item {
+                background: $bg-color;
+            }
+
+        }
+    }
+}
