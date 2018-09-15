@@ -1,4 +1,25 @@
+/*
+These rulestyles should be applied
+only at exact URLs in Stylus extension
+with mode "URL in domain":
+
+forum.ykt.ru
+forums.ykt.ru
+news.ykt.ru
+dnevniki.ykt.ru
+www2.forum.ykt.ru
+www2.forums.ykt.ru
+www2.news.ykt.ru
+www2.dnevniki.ykt.ru
+*/
+
 @import "colors";
+
+/* Append colors after they are imported */
+body {
+    background: $bg-color;
+}
+
 @import "forum/forum";
 @import "forum/forum-viewforum";
 @import "forum/forum-viewtopic";
@@ -7,8 +28,3 @@
 @import "dnevniki/dnevniki";
 @import "dnevniki/dnevniki-post";
 @import "dnevniki/dnevniki-author";
-
-/* general */
-body {
-    background: $bg-color;
-}
