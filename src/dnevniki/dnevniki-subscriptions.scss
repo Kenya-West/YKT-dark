@@ -1,0 +1,36 @@
+#site-wrapper {
+    #dnevniki-header {}
+
+    #content-wrapper {
+        .yui-nav {
+            background: $bg-color;
+            border: $border;
+            color: $font-color;
+
+            .yui-nav_item {
+                border: $border;
+            }
+
+            .yui-nav_item.active>a {
+                background: $accent-color--dark;
+                border: $border;
+            }
+
+            .yui-nav_item>a {
+                background: $bg-color;
+                border: $border;
+            }
+        }
+
+        #search-user-block {
+            border: $border;
+            color: $font-color;
+
+            .yui-input-control {
+                background: $accent-color--dark;
+                border: $border;
+                color: $font-color;
+            }
+        }
+    }
+}
