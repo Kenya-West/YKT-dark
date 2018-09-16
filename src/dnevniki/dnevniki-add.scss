@@ -10,5 +10,49 @@
             background: $accent-color--dark;
             border: $border;
         }
+
+        .dn-dropdown {
+            background-color: $accent-color--dark;
+            color: $font-color;
+        }
+
+        .dn-dropdown,
+        .dn-input {
+            background: $accent-color--dark;
+            color: $font-color;
+        }
+
+        #psot-community-select-head {
+            background: $accent-color--dark;
+            border: $border;
+        }
+
+        #psot-community-wrapper ul li:hover {
+            background: $accent-color--dark;
+        }
+
+        .dn-additional-fields-more {
+            background: $accent-color--dark !important;
+            color: $font-color;
+            border: $border;
+        }
+
+        #psot-additional-link span {
+            color: $font-color;
+        }
+
+        .yui-control-group input[type="radio"]+label,
+        .yui-control-group input[type="checkbox"]+label {
+            color: $font-color;
+        }
     }
+}
+
+.yui-block.dnevniki .yui-block_header,
+.yui-block.green .yui-block_header {
+    background-color: lighten($accent-color--dark, 15%);
+}
+
+#readers-html .yui-block_body {
+    background-color: lighten($accent-color--dark, 15%);
 }
