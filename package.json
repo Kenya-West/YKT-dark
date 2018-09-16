@@ -1,6 +1,6 @@
 {
   "name": "ykt-dark",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "YKT forums dark theme",
   "main": "app.js",
   "scripts": {
