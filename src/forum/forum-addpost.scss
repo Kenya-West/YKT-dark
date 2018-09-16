@@ -1,0 +1,24 @@
+.f-container>.f-content .f-form {
+    .f-redactor {
+        border: $border;
+        color: $font-color;
+    }
+
+    .f-redactor_header {
+        background-color: #BBB;
+    }
+
+    .f-view,
+    .f-comments,
+    .f-comments_header {
+        background: inherit;
+    }
+
+    .f-redactor>textarea {
+        background: $accent-color--dark !important;
+    }
+
+    .f-form_help {
+        color: $font-color;
+    }
+}
