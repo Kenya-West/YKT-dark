@@ -54,6 +54,44 @@ body#dnevniki-body {
             }
         }
 
+        #frontpage-old {
+            .yui-block_header {
+                background: $bg-color;
+                color: $font-color;
+                border: $border;
+            }
+
+            .preview-mini:hover,
+            .top-post-row:hover,
+            #popular-users-block li:hover,
+            #popular-tags-block li:hover,
+            #comments-latest-block li:hover,
+            .top-communities-wrapper .top-communities-row:hover {
+                background: $accent-color--dark;
+            }
+
+            #popular-users-block .yui-block_footer,
+            #fpo-posts .yui-block_footer,
+            .top-post-footer-row,
+            .top-communities-wrapper .top-communities-row-bottom {
+                background: $accent-color--dark;
+                border: $border;
+            }
+
+            .yui-btn.green {
+                background: $accent-color--dark;
+            }
+
+            .top-communities-item-read {
+                background: transparent !important;
+            }
+
+            .top-communities-read-block>span,
+            .top-communities-row>span {
+                background: none !important;
+            }
+        }
+
         >#body-wrapper {
             #main-col-inner {
                 .yui-block_body {
