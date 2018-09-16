@@ -1,0 +1,14 @@
+#site-wrapper {
+    #content-wrapper>#body-wrapper {
+        #psot-title-input {
+            background: $accent-color--dark;
+            border: $border;
+            color: $font-color;
+        }
+
+        .dn-additional-fields-wrapper {
+            background: $accent-color--dark;
+            border: $border;
+        }
+    }
+}
