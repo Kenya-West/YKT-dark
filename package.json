@@ -21,6 +21,6 @@
   "author": "Kenya-West",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.13.1"
+    "sass": "^1.19.0"
   }
 }
