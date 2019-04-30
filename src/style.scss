@@ -20,6 +20,7 @@ body {
     background: $bg-color;
 }
 
+@import "menu/menu";
 @import "forum/forum";
 @import "forum/forum-viewforum";
 @import "forum/forum-viewtopic";

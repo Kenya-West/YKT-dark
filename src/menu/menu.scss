@@ -1,0 +1,84 @@
+.ygm {
+    .ygm-inner {
+        background-color: $accent-color--dark;
+
+        .ygm-logo {
+            filter: grayscale(1) brightness(1);
+        }
+        .ygm-menu {
+            .ygm-menu_item {
+                .ygm-menu_item_link {
+                    color: $font-color !important;
+                }
+                &:hover {
+                    background-color: lighten($color: $accent-color--dark, $amount: 10%);
+                }
+            }
+            .ygm-menu_more {
+                // color: $font-color;
+                // background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMjkgMTI5IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMjkgMTI5IiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgY2xhc3M9IiI+PGcgdHJhbnNmb3JtPSJtYXRyaXgoMC4wNjYyOTg1IDAgMCAwLjA2NjI5ODUgNTkuNjM1OSA2MC4yMjM3KSI+PGc+CiAgICA8cGF0aCBkPSJtMTIxLjMsMzQuNmMtMS42LTEuNi00LjItMS42LTUuOCwwbC01MSw1MS4xLTUxLjEtNTEuMWMtMS42LTEuNi00LjItMS42LTUuOCwwLTEuNiwxLjYtMS42LDQuMiAwLDUuOGw1My45LDUzLjljMC44LDAuOCAxLjgsMS4yIDIuOSwxLjIgMSwwIDIuMS0wLjQgMi45LTEuMmw1My45LTUzLjljMS43LTEuNiAxLjctNC4yIDAuMS01Ljh6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIHN0eWxlPSJmaWxsOiNGRkZGRkYiIGRhdGEtb2xkX2NvbG9yPSIjMDAwMDAwIj48L3BhdGg+CiAgPC9nPjwvZz4gPC9zdmc+") 55px center no-repeat;
+                filter: invert(1);
+                &.active {
+                    background-color: lighten($color: $accent-color--light, $amount: 10%);
+                }
+            }
+            .ygm-menu_popup {
+                background: $bg-color;
+                .ygm-menu_popup_item_link {
+                    color: $font-color !important;
+                    &:hover {
+                        background-color: $accent-color--dark;
+                    }
+                }
+            }
+        }
+        .ygm-weather {
+            .ygm-weather_temp {
+                color: $font-color;
+            }
+            .ygm-weather_popup {
+                background-color: $bg-color;
+                > div {
+                    color: $font-color;
+                }
+            }
+        }
+        .ygm-search-icon {
+            filter: invert(1);
+            > a {
+            }
+        }
+        #ygm-userpanel {
+            border: $border;
+            &:hover {
+                background-color: $accent-color--dark;
+            }
+            .ygm-userpanel_username {
+                color: $font-color;
+            }
+            .ygm-userpanel_notifies {
+                background-color: $bg-color;
+                color: $font-color;
+            }
+            .ygm-usermenu {
+                border: $border;
+            }
+            .ygm-usermenu_item a {
+                color: $font-color;
+            }
+            .ygm-notify_body a {
+                color: $accent-color;
+            }
+            a:hover {
+                color: $accent-color--light;
+            }
+
+            .ygm-userpanel_chats {
+                background-color: $bg-color;
+            }
+        }
+        .ygm-userpanel_notifies[data-v-536fd3c6], .ygm-userpanel_chats[data-v-536fd3c6] {
+            border: $border;
+        }
+    }
+}
