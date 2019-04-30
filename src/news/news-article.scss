@@ -1,6 +1,8 @@
 .n-header {}
 
 .n-container {
+    color: $font-color;
+    
     .n-sidebar--left {
         .n-interesting_item {
             border: $border;
