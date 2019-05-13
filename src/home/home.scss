@@ -1,0 +1,61 @@
+.y-row {
+    background-color: $bg-color;
+    &.white {
+        background-color: $bg-color;
+    }
+    &.active {
+        background-color: $bg-color;
+    }
+    a,
+    .y-topsblock_header a, .y-topsblock_header a:visited {
+        color: $accent-color;
+        &:hover {
+            color: lighten($accent-color, 15%);
+        }
+    }
+}
+.y-newsblock {
+    .y-othernews .y-othernews_top .y-tabs {
+        border: none;
+        .y-tab-item {
+            color: $accent-color--light;
+            background-color: $bg-color;
+            border: none;
+            &:hover {
+                color: $font-color;
+                background-color: lighten($accent-color--dark, 10%);
+                border: none;
+            }
+            &.active {
+                color: $font-color;
+                background-color: $accent-color--dark;
+                border: none;
+            }
+        }
+    }
+    .y-pane.active {
+        background: $bg-color;
+    }
+}
+
+.y-topsblock {
+    color: $font-color;
+    background-color: $accent-color--dark;
+}
+
+.y-currencyblock {
+    color: $font-color;
+}
+
+.ygm {
+    .ygm-footer {
+        .ygm-footer_logo {
+            filter: invert(1);
+        }
+        .ygm-footer_icons > a {
+            filter: invert(1);
+        }
+        color: $accent-color--light;
+        background: $accent-color--dark;
+    }
+}
