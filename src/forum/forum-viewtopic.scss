@@ -57,4 +57,24 @@
     .f-userpanel_achievements_more {
         color: $font-color;
     }
+
+    .f-topic_share_btn {
+        filter: grayscale(1);
+        transition: filter linear 0.3s;
+        &:hover {
+            filter: grayscale(0);
+            transition: filter linear 0.3s;
+        }
+    }
+}
+
+#site-wrapper {
+    #back-up-buttons {
+        > img#home-btn {
+            opacity: .5;
+        }
+    }
+    #back-up-block:hover {
+        background-color: none !important;
+    }
 }
