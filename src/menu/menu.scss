@@ -13,11 +13,20 @@
                 &:hover {
                     background-color: lighten($color: $accent-color--dark, $amount: 10%);
                 }
+                a[href^="http://most3.ykt.ru/"] {
+                    > span {
+                        background: none !important;
+                        color: $font-color !important;
+                    }
+                }
             }
             .ygm-menu_more {
                 // color: $font-color;
                 // background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMjkgMTI5IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMjkgMTI5IiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgY2xhc3M9IiI+PGcgdHJhbnNmb3JtPSJtYXRyaXgoMC4wNjYyOTg1IDAgMCAwLjA2NjI5ODUgNTkuNjM1OSA2MC4yMjM3KSI+PGc+CiAgICA8cGF0aCBkPSJtMTIxLjMsMzQuNmMtMS42LTEuNi00LjItMS42LTUuOCwwbC01MSw1MS4xLTUxLjEtNTEuMWMtMS42LTEuNi00LjItMS42LTUuOCwwLTEuNiwxLjYtMS42LDQuMiAwLDUuOGw1My45LDUzLjljMC44LDAuOCAxLjgsMS4yIDIuOSwxLjIgMSwwIDIuMS0wLjQgMi45LTEuMmw1My45LTUzLjljMS43LTEuNiAxLjctNC4yIDAuMS01Ljh6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIHN0eWxlPSJmaWxsOiNGRkZGRkYiIGRhdGEtb2xkX2NvbG9yPSIjMDAwMDAwIj48L3BhdGg+CiAgPC9nPjwvZz4gPC9zdmc+") 55px center no-repeat;
                 filter: invert(1);
+                color: black !important;
+                font-weight: bold;
+                
                 &.active {
                     background-color: lighten($color: $accent-color--light, $amount: 10%);
                 }
