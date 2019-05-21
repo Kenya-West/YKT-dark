@@ -6,7 +6,8 @@
     &.active {
         background-color: $bg-color;
     }
-    a, a:visited {
+    a,
+    a:visited {
         color: $accent-color;
         cursor: pointer;
         &:hover {
@@ -14,19 +15,20 @@
         }
     }
 }
-.y-topsblock_header a, .y-topsblock_header a:visited,
+.y-topsblock_header a,
+.y-topsblock_header a:visited,
 .y-newsblock .y-mainnews_title,
-.y-topsblock_body a, .y-topsblock_body a:visited,
+.y-topsblock_body a,
+.y-topsblock_body a:visited,
 .y-commerce-block-item_link_title[data-v-6df640ae],
 .y-commerce-block-item_footer a[data-v-6df640ae],
-.y-topsblock_body> ul > li > a {
+.y-topsblock_body > ul > li > a {
     color: $accent-color;
     cursor: pointer;
     &:hover {
         color: lighten($accent-color, 15%);
     }
 }
-
 
 .y-newsblock {
     .y-othernews .y-othernews_top .y-tabs {
@@ -51,18 +53,35 @@
     .y-pane.active {
         background: $bg-color;
     }
+    .y-mainnews {
+        .y-mainnews_inner {
+            box-shadow: none;
+            transition: background-color 0.3ms linear;
+            background-color: $accent-color--dark;
+            &:hover {
+                color: $font-color;
+                background-color: lighten($accent-color--dark, 5%);
+                transition: background-color 0.3ms linear;
+            }
+
+            .y-mainnews_teaser {
+                color: $font-color;
+            }
+        }
+    }
 }
 
 .y-topsblock {
     color: $font-color;
     background-color: $accent-color--dark;
-    .y-topsblock_header a, .y-topsblock_header a:visited {
+    .y-topsblock_header a,
+    .y-topsblock_header a:visited {
         color: $font-color;
     }
     .y-topsblock_topic > a {
         color: $accent-color--light;
     }
-    
+
     .y-topsblock_block {
         border-color: transparent;
     }
@@ -77,10 +96,10 @@
         color: $accent-color--light;
         background: lighten($accent-color--dark, 10%);
         &:hover {
-            background: lighten($accent-color--dark, 15%)
+            background: lighten($accent-color--dark, 15%);
         }
     }
-    
+
     .y-afisha_tab--active,
     .y-afisha_tab--active[data-v-156e6bbc],
     .y-afisha_tab,
@@ -92,7 +111,7 @@
         border: none;
         &:hover {
             color: $font-color !important;
-            background: lighten($accent-color--dark, 15%)
+            background: lighten($accent-color--dark, 15%);
         }
         svg > path {
             fill: $accent-color--light;
@@ -104,13 +123,11 @@
                 border: none !important;
             }
         }
-        
     }
     .y-afisha_tab--active,
     .y-afisha_tab--active[data-v-156e6bbc] {
         color: $font-color;
     }
-    
 }
 .poll > .y-poll {
     background: $accent-color--dark;
@@ -121,7 +138,7 @@
     .poll-serv-form .poll-serv-buttons .poll-serv-submit {
         background: lighten($accent-color--dark, 10%);
         &:hover {
-            background: lighten($accent-color--dark, 15%)
+            background: lighten($accent-color--dark, 15%);
         }
     }
 }
@@ -130,7 +147,7 @@
 .y-commerceblock[data-v-6a088b71] {
     background: $accent-color--dark;
 
-    .y-commerceblock-item+.y-commerceblock-item[data-v-6a088b71] {
+    .y-commerceblock-item + .y-commerceblock-item[data-v-6a088b71] {
         border: none;
     }
     .y-commerce-block-item_title a,
@@ -153,7 +170,7 @@
         border: none;
         &:hover {
             color: $font-color !important;
-            background: lighten($accent-color--dark, 15%)
+            background: lighten($accent-color--dark, 15%);
         }
         svg > path {
             fill: $accent-color--light;
@@ -165,12 +182,11 @@
                 border: none !important;
             }
         }
-        
     }
     .y-forumblock_tab {
         color: $accent-color--light;
     }
-    .y-forumblock_tab.active>a {
+    .y-forumblock_tab.active > a {
         color: $font-color;
     }
 
