@@ -23,7 +23,12 @@ body {
     background: $bg-color;
 }
 
+a {
+    color: $accent-color;
+}
+
 @import "menu/menu";
+@import "home/home";
 @import "forum/forum";
 @import "forum/forum-viewforum";
 @import "forum/forum-viewtopic";

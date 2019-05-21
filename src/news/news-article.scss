@@ -18,6 +18,14 @@
         }
     }
     .n-main {
+        .n-post {
+            .n-post_body {
+                p > span[style] {
+                    color: $font-color !important;
+                }
+            }
+        }
+
         .n-comment,
         .n-comments_list {
             background: none;
