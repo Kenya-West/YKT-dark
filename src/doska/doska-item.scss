@@ -1,0 +1,29 @@
+.d-wrapper {
+    .d-pv_body {
+        background: $bg-color;
+        border: none;
+        color: $font-color;
+        .d-pv_section {
+            border: none;
+            color: $font-color;
+            .d-pv_phone {
+                color: $font-color;
+            }
+        }
+    }
+    .d-similar-container--desktop2015 {
+        background: $bg-color;
+        border: none;
+        color: $font-color;
+        .d-similar-post_desc {
+            color: $accent-color;
+            &:hover {
+                color: lighten($accent-color, 10%);
+            }
+            &:after {
+                display: none;
+                filter: invert(1);
+            }
+        }
+    }
+}

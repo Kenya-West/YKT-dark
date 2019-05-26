@@ -7,10 +7,12 @@ forum.ykt.ru
 forums.ykt.ru
 news.ykt.ru
 dnevniki.ykt.ru
+doska.ykt.ru
 www2.forum.ykt.ru
 www2.forums.ykt.ru
 www2.news.ykt.ru
 www2.dnevniki.ykt.ru
+www2.doska.ykt.ru
 
 Also setup mode "URL with Regex" with following:
 https?:\/\/ykt.ru\/?
@@ -41,3 +43,6 @@ a {
 @import "dnevniki/dnevniki-subscriptions";
 @import "dnevniki/dnevniki-settings";
 @import "dnevniki/dnevniki-add";
+@import "doska/doska";
+@import "doska/doska-item";
+@import "doska/doska-add";
